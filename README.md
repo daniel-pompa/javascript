@@ -45,6 +45,8 @@ This project covers topics such as variables, data types, arrays, objects, funct
 │       ├───📁 async-await/
 │       ├───📁 classes/
 │       ├───📁 control-flow/
+│       │   ├───📁 conditional-statements/
+│       │   └───📁 loops/
 │       ├───📁 data-types/
 │       ├───📁 dom/
 │       ├───📁 fetch-api/
