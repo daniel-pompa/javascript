@@ -45,7 +45,7 @@ h1 {
 }
 
 .dom #form {
-  background-color: #fff;
+  background-color: #f1f5f9;
   box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
   padding: 1em;
 }
@@ -63,12 +63,12 @@ h1 {
 }
 
 .dom #form input[type='submit'] {
-  background-color: #f1f5f9;
+  background-color: #e2e8f0;
   cursor: pointer;
 }
 
 .dom #form input[type='submit']:hover {
-  background-color: #e2e8f0;
+  background-color: #cbd5e1;
   transition: all 500ms;
 }
 
