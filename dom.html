@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Daniel Pompa Pareja" />
+    <meta name="description" content="Tutorial de JavaScript" />
+    <title>Tutorial de JavaScript</title>
+    <link rel="icon" type="image/svg+xml" href="./assets/images/javascript.svg" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1 id="heading">Document Object Model (DOM)</h1>
+      </header>
+      <!-- Container for the DOM manipulation -->
+      <section class="dom">
+        <h2 class="title">Selectores</h2>
+        <!-- Navigation bar -->
+        <nav class="nav">
+          <a class="link" href="#">Enlace</a>
+          <a class="link" href="#">Enlace</a>
+          <a class="link" href="#">Enlace</a>
+          <a class="link" href="#">Enlace</a>
+        </nav>
+        <!-- End of navigation bar -->
+        <!-- Form for DOM manipulation -->
+        <form id="form" novalidate>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            autocomplete="email"
+            placeholder="Correo electrónico"
+          />
+          <input
+            type="password"
+            name="password"
+            id="password"
+            autocomplete="current-password"
+            placeholder="Contraseña"
+          />
+          <input type="submit" value="Enviar" />
+        </form>
+        <!-- End of form -->
+        <div id="generated-content"></div>
+      </section>
+      <!-- End of container for the DOM manipulation -->
+    </main>
+    <!-- <script src="./assets/js/dom/01-selectors.js"></script> -->
+    <!-- <script src="./assets/js/dom/02-selectors.js"></script> -->
+    <script src="./assets/js/dom/03-selectors.js"></script>
+  </body>
+</html>
